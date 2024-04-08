@@ -1,0 +1,36 @@
+.root {
+    -fx-font-family: "Arial";
+}
+
+.list-view-pane, .text-area-pane {
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+
+}
+
+.list-view-pane {
+    -fx-background-image: url("pokedex.jpg");
+}
+
+.text-area-pane {
+    -fx-background-image: url("pokedex2.png");
+}
+
+.list-view, .text-area {
+    -fx-font-size: 14px;
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+}
+
+.button {
+    -fx-font-weight: bold;
+}
+.text-area {
+    -fx-text-fill: black;
+}
+
+
+.list-view .list-cell {
+    -fx-font-weight: bold;
+}
